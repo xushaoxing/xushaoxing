@@ -1,0 +1,84 @@
+<head>
+ <mate charset=”gb2312”>
+  <title>这是我的第一个网站</title>
+</head>
+<body>
+  <!-- 大家好&nbsp&nbsp欢迎大家学习HTML语言<br>
+这是br换行<p align=center>这是段落p，可以看做空行<p>图片展示实例：
+<br><center>第一张图片</center>
+<img src="images\北京地铁.jpg" width=600 height=400 alt=北京地铁路线图>
+<br><center><font face="宋体" color=red size=2>第二张图片</font></center>
+<img src="images\北京地铁.jpg" width=60% height=40% alt=北京地铁路线图>
+<br><center><font face="宋体" color=red size=5><b>第三张图片</b></font></center>
+<img src="images\北京地铁.jpg" width=600 height=400 alt=北京地铁路线图><p>
+<a href="test.html">test</a>&nbsp&nbsp
+<a href="http://www.baidu.com">百度</a>&nbsp&nbsp
+<a href="qwe\abc.html">ABC</a>
+<table border=1>
+  <tr><td>星期一<td>星期二<td align=right>星期三
+  <tr><td>数据库<td>编程语言<td align=center>Java设计
+</table>
+<table border=1>
+<tr><th colspan=4>课程表
+  <tr><td>&nbsp<td align=center>星期一<td align=center>星期二<td align=center>星期三
+  <tr><td rowspan=2>上午<td>数据库<td>编程语言<td align=center>Java设计
+  <tr><td>web服务器<td>Tomcat环境<td align=center>Apache环境
+  <tr><td rowspan=2>下午<td>Python<td>linux系统<td align=center>HTML语言
+  <tr><td>数据库<td>编程语言<td align=center>Java设计
+  <tr><td colspan=4 align=right>制表人：
+</table>
+<form name="reg" action="" method="get">
+  用户名<input type="text" name=yhm size=20 maxlength=30 
+  style="font-size:20;color:red;text-align:"left" value="请在此输入用户名"
+  onclick="if(this.value=='请在此输入用户名') this.value=''"
+  onchange="if(this.value==''){jg.innerHTML='*用户名不能为空'} else{jg.innerHTML=''}" >
+  &nbsp&nbsp<span id="jg">*用户名不能为空</span>
+</form>
+-->
+
+<form name="reg" action="" method="get">
+<table align=left>
+  <tr><td>用户名<td><input type="text" name=yhm size=20 maxlength=30 
+  style="color:red;text-align:"left" value="请在此输入用户名"
+  onclick="if(this.value=='请在此输入用户名') this.value=''"
+  onchange="if(this.value==''){jh.innerHTML='*用户名不能为空'} else{jh.innerHTML=''}" >
+  &nbsp&nbsp<span id="jh">*用户名不能为空</span>
+<tr><td align=right>密码<td><input type=password name=mm value=123456 zise=20>
+<tr><td align=>性别<td><input type=radio name=xb value=nan>男<img src="images\male.gif"> &nbsp&nbsp
+<td align=right><td><input type=radio name=xb value=nv checked>女<img src="images\famale.gif">
+<tr><td>兴趣爱好<td>
+<input type=checkbox name=xqah value=1>篮球
+<input type=checkbox name=xqah value=2>乒乓球
+<input type=checkbox name=xqah value=3 checked>足球<p>
+<input type=checkbox name=xqah value=4>爬山
+<input type=checkbox name=xqah value=5>游泳
+<input type=checkbox name=xqah value=6 checked>读书
+<tr><td>籍贯<td><select name=jg>
+  <option value=bj>北京
+  <option value=tj>天津
+  <option value=sh>上海
+  <option value=wh>武汉
+  <option value=cq>重庆
+<tr><td>所学课程<td><select name=sxkc style="font-size:16;width:100" size multiple>
+  <option value=bj>北京
+  <option value=tj>天津
+  <option value=sh>上海
+  <option value=wh>武汉
+  <option value=cq>重庆
+</select>
+<tr><td>自我介绍<td>
+<textarea name=zwjs cols=30 rows=5 onclick="if(this.value=='写点什么呢...')this.value=''">写点什么呢...</textarea>
+<tr><th colspan=2>
+<input type=submit name=qd value=确定>&nbsp&nbsp
+<input type=reset name=reset value=重置>&nbsp&nbsp
+<input type=button name=close value=确定>
+</table>
+</form>
+<frameset rows="20%,*" frameborder="yes" border="1" framespacing="0">
+  <frame src="C:\Users\10378\Desktop\top.html" scrolling=no noresize>
+  <frameset cols="20%,*">
+     <frame src="left.html" scrolling=no>
+     <frame src="moren.html" scrolling=no>
+  </frameset>
+</frameset>
+</body>
