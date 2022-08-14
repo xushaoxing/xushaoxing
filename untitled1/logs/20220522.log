@@ -1,0 +1,17 @@
+2022-05-22 19:29:30,892 - logger.py[line:32] - INFO: hello world
+2022-05-22 19:29:32,499 - logger.py[line:32] - INFO: hello world
+2022-05-22 22:27:42,374 - reg_test.py[line:23] - INFO: 登录
+2022-05-22 22:27:45,279 - reg_test.py[line:23] - INFO: 登录
+2022-05-22 22:27:47,913 - reg_test.py[line:23] - INFO: 登录
+2022-05-22 22:58:13,553 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 22:58:16,238 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 22:58:19,150 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 22:59:19,719 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 22:59:22,525 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 22:59:24,950 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:14:16,742 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:14:19,351 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:14:22,106 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:15:31,320 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:15:33,857 - reg_test.py[line:24] - INFO: 注册
+2022-05-22 23:15:38,362 - reg_test.py[line:24] - INFO: 注册
